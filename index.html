@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
     <title>My Portofolio</title>
+
+
 </head>
 
 <body>
+    <!-- <p></p> -->
     <header>
         <nav class="d-none">
             <button class="menu">
@@ -18,143 +22,148 @@
                 <span class="line"></span>
             </button>
         </nav>
-        <nav class= "navbar navbar-expand-lg justify-content-center">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#text-decoration: none;">Portofolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#container">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact-form">Contact</a></li>
-            </ul>
-        </nav>
     </header>
 
     <main>
-        <section class="container vh-100 w-100 bg-image" style="background-image: url(images/background.png); background-size:100% 150%; background-position: center;">
-            
-            <div class="container text-center" >
-                <div class="aboutme">
-                    <h1>Hey there.
+        <section class="container vh-100 w-100 bg-image"
+            style="background-image: url(images/background.png); background-size:100% 150%; background-position: center;">
+
+            <nav class="navbar navbar-expand-lg justify-content-center">
+                <ul class="navbar-nav  ">
+                    <li class="nav-item"><a class="nav-link text-dark" href="#text-decoration: none;">Portofolio</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#container ">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#contact-form">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="container text-center mt-5">
+                <div class="aboutme ">
+                    <h1 class="text-dark display-6 fw-bold">Hey there.
                         I’m Yashi.</h1>
-                    <h2 class="job"> I’m a software developer</h2>
-                    <p> I can help you build a product , feature or website Look through some of my work and experience!
+                    <h2 class="job display-6 fw-bold text-success"> I’m a software developer</h2>
+                    <p class=" fs-2 mt-5"> I can help you build a product , feature or website Look through some of my work and experience!
                         If you like what you see and have a project you need coded,
                         don’t hesitate to contact me.</p>
                 </div>
                 <div class="d-flex justify-content-center">
                     <ul>
-                        <li class="list-inline-item"><i><a class="iconan" href="https://www.twitter.com"><img src="images/twitter.png"
-                                        alt="twitter logo"> </a></i></li>
-                        <li class="list-inline-item"><i class="bi-house-door-fill mx-3"> <a class="iconan" href="https://www.Linkedin.com"><img src="images/Linkedin icon.png"
+                        <li class="list-inline-item"><i><a class="iconan" href="https://www.twitter.com"><img
+                                        src="images/twitter.png" alt="twitter logo"> </a></i></li>
+                        <li class="list-inline-item"><i class="bi-house-door-fill mx-3"> <a class="iconan"
+                                    href="https://www.Linkedin.com"><img src="images/Linkedin icon.png"
                                         alt="Linkedin logo"></a></i></li>
-                        <li class="list-inline-item"><i> <a class="iconan" href="https://www.Medium.com"><img src="images/medium.png"
-                                        alt="medium logo"></a></i></li>
-                        <li class="list-inline-item"><i> <a class="iconan" href="https://www.github.com"><img src="images/github.png"
-                                        alt="github logo"></a></i></li>
-                        <li class="list-inline-item"><i> <a class="iconan" href="www.angellist.com"><img src="images/angellist.png"
-                                        alt="angellist logo"></a></i></li>
+                        <li class="list-inline-item"><i> <a class="iconan" href="https://www.Medium.com"><img
+                                        src="images/medium.png" alt="medium logo"></a></i></li>
+                        <li class="list-inline-item"><i> <a class="iconan" href="https://www.github.com"><img
+                                        src="images/github.png" alt="github logo"></a></i></li>
+                        <li class="list-inline-item"><i> <a class="iconan" href="www.angellist.com"><img
+                                        src="images/angellist.png" alt="angellist logo"></a></i></li>
                     </ul>
                 </div>
                 <button id="action"><img src="images/Action.png" alt="Navigate button"></button>
             </div>
         </section>
 
-        <div class="d-flex justify-content-center">
-            <h2>My Recent Works</h2>
+        <div class="d-flex justify-content-center mt-5">
+            <h2 class="display-6 fw-bold text-dark">My Recent Works</h2>
             <div class="line2"></div>
         </div>
 
         <section class="container justify-content-center ">
             <div class="row">
-            <div class="col-md-4">
-                <div class="text">
-                    <h3>Multi-Post Stories <br>Gain+Glory</h3>
-                    <ul>
-                        <li class="tags"><button> Ruby on Rails</button></li>
-                        <li class="tags"><button> CSS</button></li>
-                        <li class="tags"><button> JavaScript</button></li>
-                        <li class="tags"><button> HTML</button></li>
-                    </ul>
+                <div class="col-md-4 bg-light " style="filter: brightness(90%); height: 400px;" >
+                    <div class="position-relative  end-0  justify-content-center"> 
+                        <h3  class=" mt-5 ">Multi-Post Stories <br>Gain+Glory</h3>
+                      
+                        <ul class="mt-5">
+                            <li class="tags list-inline-item"><button  class="btn btn-light" style="filter: brightness(90%);"> Ruby on Rails</button></li>
+                            <li class="tags list-inline-item"><button  class="btn btn-light" style="filter: brightness(90%);"> CSS</button></li>
+                            <li class="tags list-inline-item"><button class="btn btn-light" style="filter: brightness(90%);" > JavaScript</button></li>
+                            <li class="tags list-inline-item"><button class="btn btn-light" style="filter: brightness(90%);" > HTML</button></li>
+                        </ul>
 
 
-                    <a href="https://github.com/yashodhicy/Microverseday3pr"><button class="see_project">See
-                            Project</button></a>
+                        <a  class =" mt-5 " href="https://github.com/yashodhicy/Microverseday3pr"><button class="btn btn-success btn-lg">See
+                                Project</button></a>
+                    </div>
                 </div>
-            </div>
-            
-            <div class="col-md-4">
-                <div >
-                    <h3>Multi-Post Stories <br>Gain+Glory</h3>
-                    <ul>
-                        <li class="tags"><button> Ruby on Rails</button></li>
-                        <li class="tags"><button> CSS</button></li>
-                        <li class="tags"><button> JavaScript</button></li>
-                        <li class="tags"><button> HTML</button></li>
-                    </ul>
+
+                <div class="col-md-4">
+                    <div>
+                        <h3>Multi-Post Stories <br>Gain+Glory</h3>
+                        <ul>
+                            <li class="tags"><button> Ruby on Rails</button></li>
+                            <li class="tags"><button> CSS</button></li>
+                            <li class="tags"><button> JavaScript</button></li>
+                            <li class="tags"><button> HTML</button></li>
+                        </ul>
 
 
-                    <a href="https://github.com/yashodhicy/Microverseday3pr"><button class="see_project">See
-                            Project</button></a>
+                        <a href="https://github.com/yashodhicy/Microverseday3pr"><button class="see_project">See
+                                Project</button></a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="text">
-                    <h3>Multi-Post Stories <br>Gain+Glory</h3>
-                    <ul>
-                        <li class="tags"><button> Ruby on Rails</button></li>
-                        <li class="tags"><button> CSS</button></li>
-                        <li class="tags"><button> JavaScript</button></li>
-                        <li class="tags"><button> HTML</button></li>
-                    </ul>
+                <div class="col-md-4">
+                    <div class="text">
+                        <h3>Multi-Post Stories <br>Gain+Glory</h3>
+                        <ul>
+                            <li class="tags"><button> Ruby on Rails</button></li>
+                            <li class="tags"><button> CSS</button></li>
+                            <li class="tags"><button> JavaScript</button></li>
+                            <li class="tags"><button> HTML</button></li>
+                        </ul>
 
 
-                    <a href="https://github.com/yashodhicy/Microverseday3pr"><button class="see_project">See
-                            Project</button></a>
+                        <a href="https://github.com/yashodhicy/Microverseday3pr"><button class="see_project">See
+                                Project</button></a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="text">
-                    <h3>Multi-Post Stories <br>Gain+Glory</h3>
-                    <ul>
-                        <li class="tags"><button> Ruby on Rails</button></li>
-                        <li class="tags"><button> CSS</button></li>
-                        <li class="tags"><button> JavaScript</button></li>
-                        <li class="tags"><button> HTML</button></li>
-                    </ul>
+                <div class="col-md-4">
+                    <div class="text">
+                        <h3>Multi-Post Stories <br>Gain+Glory</h3>
+                        <ul>
+                            <li class="tags"><button> Ruby on Rails</button></li>
+                            <li class="tags"><button> CSS</button></li>
+                            <li class="tags"><button> JavaScript</button></li>
+                            <li class="tags"><button> HTML</button></li>
+                        </ul>
 
 
-                    <a href="https://github.com/yashodhicy/Microverseday3pr"><button class="see_project">See
-                            Project</button></a>
+                        <a href="https://github.com/yashodhicy/Microverseday3pr"><button class="see_project">See
+                                Project</button></a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="text">
-                    <h3>Multi-Post Stories <br>Gain+Glory</h3>
-                    <ul>
-                        <li class="tags"><button> Ruby on Rails</button></li>
-                        <li class="tags"><button> CSS</button></li>
-                        <li class="tags"><button> JavaScript</button></li>
-                        <li class="tags"><button> HTML</button></li>
-                    </ul>
+                <div class="col-md-4">
+                    <div class="text">
+                        <h3>Multi-Post Stories <br>Gain+Glory</h3>
+                        <ul>
+                            <li class="tags"><button> Ruby on Rails</button></li>
+                            <li class="tags"><button> CSS</button></li>
+                            <li class="tags"><button> JavaScript</button></li>
+                            <li class="tags"><button> HTML</button></li>
+                        </ul>
 
 
-                    <a href="https://github.com/yashodhicy/Microverseday3pr"><button class="see_project">See
-                            Project</button></a>
+                        <a href="https://github.com/yashodhicy/Microverseday3pr"><button class="see_project">See
+                                Project</button></a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="text">
-                    <h3>Multi-Post Stories <br>Gain+Glory</h3>
-                    <ul>
-                        <li class="tags"><button> Ruby on Rails</button></li>
-                        <li class="tags"><button> CSS</button></li>
-                        <li class="tags"><button> JavaScript</button></li>
-                        <li class="tags"><button> HTML</button></li>
-                    </ul>
+                <div class="col-md-4">
+                    <div class="text">
+                        <h3>Multi-Post Stories <br>Gain+Glory</h3>
+                        <ul>
+                            <li class="tags"><button> Ruby on Rails</button></li>
+                            <li class="tags"><button> CSS</button></li>
+                            <li class="tags"><button> JavaScript</button></li>
+                            <li class="tags"><button> HTML</button></li>
+                        </ul>
 
 
-                    <a href="https://github.com/yashodhicy/Microverseday3pr"><button class="see_project">See
-                            Project</button></a>
+                        <a href="https://github.com/yashodhicy/Microverseday3pr"><button class="see_project">See
+                                Project</button></a>
+                    </div>
                 </div>
-            </div>
             </div>
         </section>
 
@@ -221,10 +230,11 @@
             <h2 id="msg">I'm always interested in hearing about new projects, so if you'd like to chat please get in
                 touch.</h2>
             <form id="form" action="https://formspree.io/f/xlekprob" method="post">
-                <input type="text" placeholder="Full name" maxlength="30" name="username" required title="Please enter your name.">
+                <input type="text" placeholder="Full name" maxlength="30" name="username" required
+                    title="Please enter your name.">
                 <input type="email" placeholder="Email address" name="email" required itle="Please enter your email.">
-                <textarea maxlength="500" placeholder="Hey I'd like to connect to" required ></textarea>
-                <button type="submit" >Get in touch</button>
+                <textarea maxlength="500" placeholder="Hey I'd like to connect to" required></textarea>
+                <button type="submit">Get in touch</button>
                 <a href="#">yashodhichathurangi94@gmail.com</a>
             </form>
             <div class="formbackground1"></div>
@@ -249,7 +259,7 @@
             <div class="line3"></div>
         </footer>
     </main>
-
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 
 </html>
