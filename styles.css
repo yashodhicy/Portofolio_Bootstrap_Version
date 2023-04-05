@@ -1,0 +1,20 @@
+.background {
+    background-image: url(images/background.png);
+    background-size: 100% 110%;
+    background-position: center;
+  }
+
+.work-card{
+    height: 400px;
+}
+
+.light-ash {
+    background-color:#d2d2d2; /* replace with your desired shade of light ash */
+  }
+
+  .background1 {
+    background-image: url(images/ill1.png);
+    background-position: -5% 100%;
+    background-size: 20%;
+    background-repeat: no-repeat;
+  }

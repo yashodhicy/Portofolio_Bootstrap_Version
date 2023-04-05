@@ -6,16 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="styles.css">
     <title>My Portofolio</title>
 
 
 </head>
 
 <body>
-    <!-- <p></p> -->
-    <header>
-        <nav class="d-none">
+    <header class="d-md-none">
+        <nav class="d-md-none">
             <button class="menu">
                 <span class="line"></span>
                 <span class="line"></span>
@@ -25,11 +24,10 @@
     </header>
 
     <main>
-        <section class="container vh-100 w-100 bg-image"
-            style="background-image: url(images/background.png); background-size:100% 150%; background-position: center;">
+        <section class="container vh-100 w-100 bg-image background">
 
-            <nav class="navbar navbar-expand-lg justify-content-center">
-                <ul class="navbar-nav  ">
+            <nav class="navbar w-100 border navbar-expand-lg d-none d-md-flex mx-auto justify-content-center">
+                <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link text-dark" href="#text-decoration: none;">Portofolio</a>
                     </li>
                     <li class="nav-item"><a class="nav-link text-dark" href="#container ">About</a></li>
@@ -42,7 +40,8 @@
                     <h1 class="text-dark display-6 fw-bold">Hey there.
                         I’m Yashi.</h1>
                     <h2 class="job display-6 fw-bold text-success"> I’m a software developer</h2>
-                    <p class=" fs-2 mt-5"> I can help you build a product , feature or website Look through some of my work and experience!
+                    <p class=" fs-2 mt-5"> I can help you build a product , feature or website Look through some of my
+                        work and experience!
                         If you like what you see and have a project you need coded,
                         don’t hesitate to contact me.</p>
                 </div>
@@ -71,125 +70,155 @@
         </div>
 
         <section class="container justify-content-center ">
-          
+
             <div class="col">
-                <div class="row">
-                    <div class="col me-3 bg-light border rounded p-0 m-0 " style="filter: brightness(90%); height: 400px;" >
+                <div class="row mt-3">
+                    <div class="col me-3 light-ash border rounded p-0 m-0 vh-100">
                         <div class="position-relative  h-50 rounded-top"></div>
-                        <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom"> 
-                            <h3  class="">Multi-Post Stories <br>Gain+Glory</h3>
-                          
+                        <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom">
+                            <h3 class="">Multi-Post Stories <br>Gain+Glory</h3>
+
                             <ul class="">
-                                <li class="tags list-inline-item"><button  class="btn btn-light btn-sm" style="filter: brightness(90%);"> Ruby on Rails</button></li>
-                                <li class="tags list-inline-item"><button  class="btn btn-light btn-sm" style="filter: brightness(90%);"> CSS</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm" style="filter: brightness(90%);" > JavaScript</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm" style="filter: brightness(90%);" > HTML</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> Ruby on
+                                        Rails</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> CSS</button>
+                                </li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm">
+                                        JavaScript</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> HTML</button>
+                                </li>
                             </ul>
-    
-    
-                            <a  class ="  " href="https://github.com/yashodhicy/Microverseday3pr"><button class="btn btn-success btn-lg">See
+
+
+                            <a class="" href="https://github.com/yashodhicy/Microverseday3pr"><button
+                                    class="btn btn-success btn-lg">See
                                     Project</button></a>
                         </div>
                     </div>
-    
-                    <div class="col me-3 bg-light border rounded p-0 m-0 " style="filter: brightness(90%); height: 400px;" >
+
+                    <div class="col me-3 light-ash border rounded p-0 m-0 vh-100">
                         <div class="position-relative  h-50 rounded-top"></div>
-                        <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom"> 
-                            <h3  class="">Multi-Post Stories <br>Gain+Glory</h3>
-                          
+                        <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom">
+                            <h3 class="">Multi-Post Stories <br>Gain+Glory</h3>
+
                             <ul class="">
-                                <li class="tags list-inline-item"><button  class="btn btn-light btn-sm" style="filter: brightness(90%);"> Ruby on Rails</button></li>
-                                <li class="tags list-inline-item"><button  class="btn btn-light btn-sm" style="filter: brightness(90%);"> CSS</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm" style="filter: brightness(90%);" > JavaScript</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm" style="filter: brightness(90%);" > HTML</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light bg-light btn-sm"> Ruby on
+                                        Rails</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> CSS</button>
+                                </li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                        style="filter: brightness(90%);"> JavaScript</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                        style="filter: brightness(90%);"> HTML</button></li>
                             </ul>
-    
-    
-                            <a  class ="  " href="https://github.com/yashodhicy/Microverseday3pr"><button class="btn btn-success btn-lg">See
+
+
+                            <a class="  " href="https://github.com/yashodhicy/Microverseday3pr"><button
+                                    class="btn btn-success btn-lg">See
                                     Project</button></a>
                         </div>
                     </div>
-                    <div class="col me-3 bg-light border rounded p-0 m-0 " style="filter: brightness(90%); height: 400px;" >
+                    <div class="col me-3 light-ash border rounded p-0 m-0 vh-100">
                         <div class="position-relative  h-50 rounded-top"></div>
-                        <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom"> 
-                            <h3  class="">Multi-Post Stories <br>Gain+Glory</h3>
-                          
+                        <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom">
+                            <h3 class="">Multi-Post Stories <br>Gain+Glory</h3>
+
                             <ul class="">
-                                <li class="tags list-inline-item"><button  class="btn btn-light btn-sm" style="filter: brightness(90%);"> Ruby on Rails</button></li>
-                                <li class="tags list-inline-item"><button  class="btn btn-light btn-sm" style="filter: brightness(90%);"> CSS</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm" style="filter: brightness(90%);" > JavaScript</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm" style="filter: brightness(90%);" > HTML</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> Ruby on
+                                        Rails</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> CSS</button>
+                                </li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm">
+                                        JavaScript</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> HTML</button>
+                                </li>
                             </ul>
-    
-    
-                            <a  class ="  " href="https://github.com/yashodhicy/Microverseday3pr"><button class="btn btn-success btn-lg">See
+
+
+                            <a class="  " href="https://github.com/yashodhicy/Microverseday3pr"><button
+                                    class="btn btn-success btn-lg">See
                                     Project</button></a>
                         </div>
-              
-                    </div>    
+
+                    </div>
                 </div>
                 <div class="row mt-5">
-                    <div class="col me-3 bg-light border rounded p-0 m-0 " style="filter: brightness(90%); height: 400px;" >
+                    <div class="col me-3 light-ash border rounded p-0 m-0 vh-100">
                         <div class="position-relative  h-50 rounded-top"></div>
-                        <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom"> 
-                            <h3  class="">Multi-Post Stories <br>Gain+Glory</h3>
-                          
+                        <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom">
+                            <h3 class="">Multi-Post Stories <br>Gain+Glory</h3>
+
                             <ul class="">
-                                <li class="tags list-inline-item"><button  class="btn btn-light btn-sm" style="filter: brightness(90%);"> Ruby on Rails</button></li>
-                                <li class="tags list-inline-item"><button  class="btn btn-light btn-sm" style="filter: brightness(90%);"> CSS</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm" style="filter: brightness(90%);" > JavaScript</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm" style="filter: brightness(90%);" > HTML</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> Ruby on
+                                        Rails</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> CSS</button>
+                                </li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm">
+                                        JavaScript</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> HTML</button>
+                                </li>
                             </ul>
-    
-    
-                            <a  class ="  " href="https://github.com/yashodhicy/Microverseday3pr"><button class="btn btn-success btn-lg">See
+
+
+                            <a class="  " href="https://github.com/yashodhicy/Microverseday3pr"><button
+                                    class="btn btn-success btn-lg">See
                                     Project</button></a>
                         </div>
                     </div>
-    
-                    <div class="col me-3 bg-light border rounded p-0 m-0 " style="filter: brightness(90%); height: 400px;" >
+
+                    <div class="col me-3 light-ash border rounded p-0 m-0 vh-100">
                         <div class="position-relative  h-50 rounded-top"></div>
-                        <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom"> 
-                            <h3  class="">Multi-Post Stories <br>Gain+Glory</h3>
-                          
+                        <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom">
+                            <h3 class="">Multi-Post Stories <br>Gain+Glory</h3>
+
                             <ul class="">
-                                <li class="tags list-inline-item"><button  class="btn btn-light btn-sm" style="filter: brightness(90%);"> Ruby on Rails</button></li>
-                                <li class="tags list-inline-item"><button  class="btn btn-light btn-sm" style="filter: brightness(90%);"> CSS</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm" style="filter: brightness(90%);" > JavaScript</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm" style="filter: brightness(90%);" > HTML</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> Ruby on
+                                        Rails</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> CSS</button>
+                                </li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm">
+                                        JavaScript</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> HTML</button>
+                                </li>
                             </ul>
-    
-    
-                            <a  class ="  " href="https://github.com/yashodhicy/Microverseday3pr"><button class="btn btn-success btn-lg">See
+
+
+                            <a class="  " href="https://github.com/yashodhicy/Microverseday3pr"><button
+                                    class="btn btn-success btn-lg">See
                                     Project</button></a>
                         </div>
                     </div>
-                    <div class="col me-3 bg-light border rounded p-0 m-0 " style="filter: brightness(90%); height: 400px;" >
+                    <div class="col me-3 light-ash border rounded p-0 m-0 vh-100">
                         <div class="position-relative  h-50 rounded-top"></div>
-                        <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom"> 
-                            <h3  class="">Multi-Post Stories <br>Gain+Glory</h3>
-                          
+                        <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom">
+                            <h3 class="">Multi-Post Stories <br>Gain+Glory</h3>
+
                             <ul class="">
-                                <li class="tags list-inline-item"><button  class="btn btn-light btn-sm" style="filter: brightness(90%);"> Ruby on Rails</button></li>
-                                <li class="tags list-inline-item"><button  class="btn btn-light btn-sm" style="filter: brightness(90%);"> CSS</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm" style="filter: brightness(90%);" > JavaScript</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm" style="filter: brightness(90%);" > HTML</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> Ruby on
+                                        Rails</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> CSS</button>
+                                </li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm">
+                                        JavaScript</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> HTML</button>
+                                </li>
                             </ul>
-    
-    
-                            <a  class ="  " href="https://github.com/yashodhicy/Microverseday3pr"><button class="btn btn-success btn-lg">See
+
+
+                            <a class="  " href="https://github.com/yashodhicy/Microverseday3pr"><button
+                                    class="btn btn-success btn-lg">See
                                     Project</button></a>
                         </div>
-              
-                    </div>    
+
+                    </div>
                 </div>
             </div>
-            
-          
+
+
         </section>
 
-        <section id="container2">
-            <div class="aboutme">
+        <section class="container text-center mt-5 background1">
+            <div class=" col fs-2">
                 <h2>About me</h2>
                 <p>
                     I can help you build a product , feature or website Look through some of my work and experience! If
@@ -198,83 +227,115 @@
                     Get my resume
                 </p>
                 <a class="project-ancor" href="https://github.com/yashodhicy/Microverseday3pr">
-                    <button class="see_project">Get my resume</button>
+                    <button class="btn btn-success btn-lg">Get my resume</button>
                 </a>
             </div>
             <div class="background2"></div>
         </section>
 
-        <section class="work">
-            <div class="work-card2">
-                <div class="image">
-                    <img src="icon-languages.png" alt="logo languages">
+        <section class="row mt-5">
+            <div class="col me-3 bg-light border rounded p-0 m-0 justify-content-center text-center">
+                <div class="">
+                    <img src="images/icon-languages.png" alt="logo languages">
                 </div>
                 <h3>Languages</h3>
                 <ul>
-                    <li class="list"><button class="but"> JavaScript</button></li>
-                    <li class="list"><button class="but"> Ruby</button></li>
-                    <li class="list"><button class="but"> HTML</button></li>
-                    <li class="list"><button class="but"> CSS</button></li>
+                    <li class="list-inline-item"><button class="btn btn-light btn-sm rounded text-success bg-white">
+                            JavaScript</button></li>
+                    <li class="list-inline-item"><button class="btn btn-light btn-sm rounded text-success bg-white">
+                            Ruby</button></li>
+                    <li class="list-inline-item"><button class="btn btn-light btn-sm rounded text-success bg-white">
+                            HTML</button></li>
+                    <li class="list-inline-item"><button class="btn btn-light btn-sm rounded text-success bg-white">
+                            CSS</button></li>
                 </ul>
             </div>
-            <div class="work-card2">
+            <div class="col me-3 bg-light border rounded p-0 m-0 justify-content-center text-center">
                 <div class="image">
-                    <img src="icon-frameworks.png" alt="logo frameworks">
+                    <img src="images/icon-frameworks.png" alt="logo frameworks">
                 </div>
                 <h3>Frameworks </h3>
                 <ul>
-                    <li class="list"><button class="but"> React.js</button></li>
-                    <li class="list"><button class="but"> Ruby on Rails</button></li>
-                    <li class="list"><button class="but"> RSpec</button></li>
-                    <li class="list"><button class="but"> Capybara</button></li>
-                    <li class="list"><button class="but"> Selenium</button></li>
+                    <li class="list-inline-item"><button class="btn btn-light btn-sm rounded text-success bg-white">
+                            React.js</button></li>
+                    <li class="list-inline-item"><button class="btn btn-light btn-sm rounded text-success bg-white">
+                            Ruby on Rails</button></li>
+                    <li class="list-inline-item"><button class="btn btn-light btn-sm rounded text-success bg-white">
+                            RSpec</button></li>
+                    <li class="list-inline-item"><button class="btn btn-light btn-sm rounded text-success bg-white">
+                            Capybara</button></li>
+                    <li class="list-inline-item"><button class="btn btn-light btn-sm rounded text-success bg-white">
+                            Selenium</button></li>
                 </ul>
             </div>
-            <div class="work-card2">
+            <div class="col me-3 bg-light border rounded p-0 m-0 justify-content-center text-center">
                 <div class="image">
-                    <img src="icon-skills.png" alt="logo skills">
+                    <img src="images/icon-skills.png" alt="logo skills">
                 </div>
                 <h3>Skills</h3>
                 <ul>
-                    <li class="list"><button class="but"> Database Management</button></li>
-                    <li class="list"><button class="but"> Version control</button></li>
-                    <li class="list"><button class="but"> CLI</button></li>
-                    <li class="list"><button class="but"> Web Development</button></li>
-                    <li class="list"><button class="but"> API design</button></li>
+                    <li class="list-inline-item"><button class="btn btn-light btn-sm rounded text-success bg-white">
+                            Database Management</button></li>
+                    <li class="list-inline-item"><button class="btn btn-light btn-sm rounded text-success bg-white">
+                            Version control</button></li>
+                    <li class="list-inline-item"><button class="btn btn-light btn-sm rounded text-success bg-white">
+                            CLI</button></li>
+                    <li class="list-inline-item"><button class="btn btn-light btn-sm rounded text-success bg-white"> Web
+                            Development</button></li>
+                    <li class="list-inline-item"><button class="btn btn-light btn-sm rounded text-success bg-white"> API
+                            design</button></li>
                 </ul>
             </div>
         </section>
 
         <!-- contact-form -->
 
-        <section id="contact-form">
-            <h2 id="msg">I'm always interested in hearing about new projects, so if you'd like to chat please get in
-                touch.</h2>
-            <form id="form" action="https://formspree.io/f/xlekprob" method="post">
-                <input type="text" placeholder="Full name" maxlength="30" name="username" required
-                    title="Please enter your name.">
-                <input type="email" placeholder="Email address" name="email" required itle="Please enter your email.">
-                <textarea maxlength="500" placeholder="Hey I'd like to connect to" required></textarea>
-                <button type="submit">Get in touch</button>
-                <a href="#">yashodhichathurangi94@gmail.com</a>
-            </form>
+        <section class="container contact-form">
+            <div class="row mt-5 mx-3">
+                <div class="col">
+                    <h2 id="msg">I'm always interested in hearing about new projects, so if you'd like to chat please
+                        get in
+                        touch.</h2>
+                </div>
+                <div class="col">
+                    <form id="form" action="https://formspree.io/f/xlekprob" method="post">
+                        <div class="form-group mt-3">
+                            <input type="text" placeholder="Full name" maxlength="30" name="username" required
+                                title="Please enter your name." class="form-control">
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="email" placeholder="Email address" name="email" required
+                                itle="Please enter your email." class="form-control">
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea maxlength="500" placeholder="Hey I'd like to connect to" required
+                                class="form-control"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-sm mt-3">Get in touch</button>
+
+                        <a href="#" class="d-none">yashodhichathurangi94@gmail.com</a>
+                    </form>
+                </div>
+            </div>
             <div class="formbackground1"></div>
             <div class="formbackground2"></div>
             <div class="formbackground3"></div>
         </section>
+       
         <footer>
-            <div class="icon-bar">
+            <div class="text-center mt-5">
                 <ul>
-                    <li><i><a class="iconan" href="https://www.twitter.com"><img src="twitter.png" alt="twitter logo">
+                    <li class="list-inline-item"><i><a class="iconan" href="https://www.twitter.com"><img
+                                    src="images/twitter.png" alt="twitter logo">
                             </a></i></li>
-                    <li><i> <a class="iconan" href="https://www.Linkedin.com"><img src="Linkedin icon.png"
-                                    alt="Linkedin logo"></a></i></li>
-                    <li><i> <a class="iconan" href="https://www.Medium.com"><img src="medium.png"
-                                    alt="medium logo"></a></i></li>
-                    <li><i> <a class="iconan" href="https://www.github.com"><img src="github.png"
-                                    alt="github logo"></a></i></li>
-                    <li><i> <a class="iconan" href="www.angellist.com"><img src="angellist.png"
-                                    alt="angellist logo"></a></i></li>
+                    <li class="list-inline-item"><i> <a class="iconan" href="https://www.Linkedin.com"><img
+                                    src="images/Linkedin icon.png" alt="Linkedin logo"></a></i></li>
+                    <li class="list-inline-item"><i> <a class="iconan" href="https://www.Medium.com"><img
+                                    src="images/medium.png" alt="medium logo"></a></i></li>
+                    <li class="list-inline-item"><i> <a class="iconan" href="https://www.github.com"><img
+                                    src="images/github.png" alt="github logo"></a></i></li>
+                    <li class="list-inline-item"><i> <a class="iconan" href="www.angellist.com"><img
+                                    src="images/angellist.png" alt="angellist logo"></a></i></li>
                 </ul>
             </div>
             <div class="line3"></div>
