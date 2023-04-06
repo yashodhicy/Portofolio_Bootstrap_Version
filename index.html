@@ -5,42 +5,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
     <title>My Portofolio</title>
 
 
 </head>
 
 <body>
-    <header class="d-md-none">
-        <nav class="d-md-none">
-            <button class="menu">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-            </button>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+             <a class="navbar-brand text-primary" href="#"></a>             
+        <button class="navbar-toggler" type="button" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </nav>
     </header>
 
     <main>
-        <section class="container vh-150 w-100 bg-image background">
-
-            <nav class="navbar w-100 navbar-expand-lg d-none d-md-flex mx-auto justify-content-center">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link text-dark" href="#text-decoration: none;">Portofolio</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link text-dark" href="#container ">About</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark" href="#contact-form">Contact</a></li>
-                </ul>
-            </nav>
+        <section class="container vh-100 w-100 bg-image"
+            style="background-image: url(images/background.png); background-size:100% 150%; background-position: center;">
+            <nav class="navbar navbar-expand-lg navbar-light  ">
+                <div class="col-md-5"></div>
+                <div class="container col-md-4">
+                  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav  ">
+                      <li class="nav-item">
+                        <a class="nav-link active text-dark" aria-current="page" href="#">Portofolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3"></div>
+              </nav>
 
             <div class="container text-center mt-5">
                 <div class="aboutme ">
-                    <h1 class="text-dark display-6 fw-bold">Hey there.
+                    <h1 class="text-dark display-6 fw-bold text-responsive ">Hey there.
                         I’m Yashi.</h1>
-                    <h2 class="job display-6 fw-bold text-success"> I’m a software developer</h2>
-                    <p class=" fs-2 mt-5"> I can help you build a product , feature or website Look through some of my
+                    <h2 class="job display-6 fw-bold text-success text-responsive"> I’m a software developer</h2>
+                    <p class=" fs-2 mt-5 text-responsive"> I can help you build a product , feature or website Look through some of my
                         work and experience!
                         If you like what you see and have a project you need coded,
                         don’t hesitate to contact me.</p>
@@ -49,7 +64,7 @@
                     <ul>
                         <li class="list-inline-item"><i><a class="iconan" href="https://www.twitter.com"><img
                                         src="images/twitter.png" alt="twitter logo"> </a></i></li>
-                        <li class="list-inline-item"><i class="bi-house-door-fill mx-3"> <a class="iconan"
+                        <li class="list-inline-item"><i class=""> <a class="iconan"
                                     href="https://www.Linkedin.com"><img src="images/Linkedin icon.png"
                                         alt="Linkedin logo"></a></i></li>
                         <li class="list-inline-item"><i> <a class="iconan" href="https://www.Medium.com"><img
@@ -71,41 +86,20 @@
 
         <section class="container justify-content-center ">
 
-            <div class="col">
-                <div class="row mt-3">
-                    <div class="col-md-auto col-sm-3 me-3 mt-3 mx-auto light-ash border rounded p-0 m-0 vh-100 justify-content-center" >
+            <div class=" col-md-12 ">
+                <div class="row ">
+                    <div class="col-md-1 me-5"></div>
+                    <div class=" col-md-3 col-sm-12  bg-light border me-3 rounded p-0 m-0 mt-5 "
+                        style="filter: brightness(90%); height: 400px;">
                         <div class="position-relative  h-50 rounded-top"></div>
                         <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom">
                             <h3 class="">Multi-Post Stories <br>Gain+Glory</h3>
 
-                            <ul class="">
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> Ruby on
-                                        Rails</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> CSS</button>
-                                </li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm">
-                                        JavaScript</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> HTML</button>
-                                </li>
-                            </ul>
-
-
-                            <a class="" href="https://github.com/yashodhicy/Microverseday3pr"><button
-                                    class="btn btn-success btn-lg">See
-                                    Project</button></a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-auto col-sm-3 me-3 ms-3 mt-3 light-ash border rounded p-0 m-0 vh-100 justify-content-center">
-                        <div class="position-relative  h-50 rounded-top"></div>
-                        <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom">
-                            <h3 class="">Multi-Post Stories <br>Gain+Glory</h3>
-
-                            <ul class="">
-                                <li class="tags list-inline-item"><button class="btn btn-light bg-light btn-sm"> Ruby on
-                                        Rails</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> CSS</button>
-                                </li>
+                            <ul class="p-0 m-0">
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                        style="filter: brightness(90%);"> Ruby on Rails</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                        style="filter: brightness(90%);"> CSS</button></li>
                                 <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
                                         style="filter: brightness(90%);"> JavaScript</button></li>
                                 <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
@@ -113,69 +107,75 @@
                             </ul>
 
 
-                            <a class="  " href="https://github.com/yashodhicy/Microverseday3pr"><button
-                                    class="btn btn-success btn-lg">See
+                            <a  href="https://github.com/yashodhicy/Microverseday3pr"><button
+                                    class="btn btn-success btn-lg mt-2">See
                                     Project</button></a>
                         </div>
                     </div>
-                    <div class="col-md-auto col-sm-3 me-3 ms-3 mt-3 light-ash border rounded p-0 m-0 vh-100 justify-content-center">
+
+                    <div class=" col-md-3 col-sm-12  bg-light border me-3 rounded p-0 m-0 mt-5 "
+                        style="filter: brightness(90%); height: 400px;">
                         <div class="position-relative  h-50 rounded-top"></div>
                         <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom">
                             <h3 class="">Multi-Post Stories <br>Gain+Glory</h3>
 
-                            <ul class="">
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> Ruby on
-                                        Rails</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> CSS</button>
-                                </li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm">
-                                        JavaScript</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> HTML</button>
-                                </li>
+                            <ul class="p-0 m-0">
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                        style="filter: brightness(90%);"> Ruby on Rails</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                        style="filter: brightness(90%);"> CSS</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                        style="filter: brightness(90%);"> JavaScript</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                        style="filter: brightness(90%);"> HTML</button></li>
                             </ul>
 
 
-                            <a class="  " href="https://github.com/yashodhicy/Microverseday3pr"><button
-                                    class="btn btn-success btn-lg">See
+                            <a  href="https://github.com/yashodhicy/Microverseday3pr"><button
+                                    class="btn btn-success btn-lg mt-2">See
                                     Project</button></a>
                         </div>
+                    </div>
 
+                    <div class=" col-md-3 col-sm-12  bg-light border me-3 rounded p-0 m-0 mt-5 "
+                    style="filter: brightness(90%); height: 400px;">
+                    <div class="position-relative  h-50 rounded-top"></div>
+                    <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom">
+                        <h3 class="">Multi-Post Stories <br>Gain+Glory</h3>
+
+                        <ul class="p-0 m-0">
+                            <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                    style="filter: brightness(90%);"> Ruby on Rails</button></li>
+                            <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                    style="filter: brightness(90%);"> CSS</button></li>
+                            <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                    style="filter: brightness(90%);"> JavaScript</button></li>
+                            <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                    style="filter: brightness(90%);"> HTML</button></li>
+                        </ul>
+
+
+                        <a  href="https://github.com/yashodhicy/Microverseday3pr"><button
+                                class="btn btn-success btn-lg mt-2">See
+                                Project</button></a>
                     </div>
                 </div>
-                <div class="row mt-5">
-                    <div class="col-md-auto col-sm-3 me-3 ms-3 mt-3 light-ash border rounded p-0 m-0 vh-100 justify-content-center" >
+
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1 me-5"></div>
+                    <div class=" col-md-3 col-sm-12  bg-light border me-3 rounded p-0 m-0  mt-5  "
+                        style="filter: brightness(90%); height: 400px;">
                         <div class="position-relative  h-50 rounded-top"></div>
                         <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom">
                             <h3 class="">Multi-Post Stories <br>Gain+Glory</h3>
 
-                            <ul class="">
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> Ruby on
-                                        Rails</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> CSS</button>
-                                </li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm">
-                                        JavaScript</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> HTML</button>
-                                </li>
-                            </ul>
-
-
-                            <a class="" href="https://github.com/yashodhicy/Microverseday3pr"><button
-                                    class="btn btn-success btn-lg">See
-                                    Project</button></a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-auto col-sm-3 me-3 ms-3 mt-3 light-ash border rounded p-0 m-0 vh-100 justify-content-center">
-                        <div class="position-relative  h-50 rounded-top"></div>
-                        <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom">
-                            <h3 class="">Multi-Post Stories <br>Gain+Glory</h3>
-
-                            <ul class="">
-                                <li class="tags list-inline-item"><button class="btn btn-light bg-light btn-sm"> Ruby on
-                                        Rails</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> CSS</button>
-                                </li>
+                            <ul class="p-0 m-0">
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                        style="filter: brightness(90%);"> Ruby on Rails</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                        style="filter: brightness(90%);"> CSS</button></li>
                                 <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
                                         style="filter: brightness(90%);"> JavaScript</button></li>
                                 <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
@@ -183,39 +183,67 @@
                             </ul>
 
 
-                            <a class="  " href="https://github.com/yashodhicy/Microverseday3pr"><button
-                                    class="btn btn-success btn-lg">See
+                            <a  href="https://github.com/yashodhicy/Microverseday3pr"><button
+                                    class="btn btn-success btn-lg mt-2">See
                                     Project</button></a>
                         </div>
                     </div>
-                    <div class="col-md-auto col-sm-3 me-3 ms-3 mt-3 light-ash border rounded p-0 m-0 vh-100 justify-content-center">
+
+                    <div class=" col-md-3 col-sm-12  bg-light border me-3 rounded p-0 m-0 mt-5 "
+                        style="filter: brightness(90%); height: 400px;">
                         <div class="position-relative  h-50 rounded-top"></div>
                         <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom">
                             <h3 class="">Multi-Post Stories <br>Gain+Glory</h3>
 
-                            <ul class="">
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> Ruby on
-                                        Rails</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> CSS</button>
-                                </li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm">
-                                        JavaScript</button></li>
-                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"> HTML</button>
-                                </li>
+                            <ul class="p-0 m-0">
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                        style="filter: brightness(90%);"> Ruby on Rails</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                        style="filter: brightness(90%);"> CSS</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                        style="filter: brightness(90%);"> JavaScript</button></li>
+                                <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                        style="filter: brightness(90%);"> HTML</button></li>
                             </ul>
 
 
-                            <a class="  " href="https://github.com/yashodhicy/Microverseday3pr"><button
-                                    class="btn btn-success btn-lg">See
+                            <a  href="https://github.com/yashodhicy/Microverseday3pr"><button
+                                    class="btn btn-success btn-lg mt-2">See
                                     Project</button></a>
                         </div>
-
                     </div>
+
+                    <div class=" col-md-3 col-sm-12  bg-light border me-3 rounded p-0 m-0 mt-5 "
+                    style="filter: brightness(90%); height: 400px;">
+                    <div class="position-relative  h-50 rounded-top"></div>
+                    <div class="position-relative   text-center w-100 h-50 bg-white rounded-bottom">
+                        <h3 class="">Multi-Post Stories <br>Gain+Glory</h3>
+
+                        <ul class="p-0 m-0">
+                            <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                    style="filter: brightness(90%);"> Ruby on Rails</button></li>
+                            <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                    style="filter: brightness(90%);"> CSS</button></li>
+                            <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                    style="filter: brightness(90%);"> JavaScript</button></li>
+                            <li class="tags list-inline-item"><button class="btn btn-light btn-sm"
+                                    style="filter: brightness(90%);"> HTML</button></li>
+                        </ul>
+
+
+                        <a  href="https://github.com/yashodhicy/Microverseday3pr"><button
+                                class="btn btn-success btn-lg mt-2">See
+                                Project</button></a>
+                    </div>
+                </div>
+
+                    <div class="col-md-1"></div>
                 </div>
             </div>
 
 
         </section>
+
 
         <section class="container text-center mt-5 background1">
             <div class=" col fs-2">
@@ -233,8 +261,10 @@
             <div class="background2"></div>
         </section>
 
-        <section class="row mt-5 justify-content-center">
-            <div class="col  me-3 bg-light border rounded p-0 m-0 justify-content-center text-center">
+        <section class="container mt-5 justify-content-center">
+            <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-3 col-sm-12  mt-5 me-3 bg-light border rounded p-0 m-0 justify-content-center text-center">
                 <div class="">
                     <img src="images/icon-languages.png" alt="logo languages">
                 </div>
@@ -250,7 +280,7 @@
                             CSS</button></li>
                 </ul>
             </div>
-            <div class="col  me-3 bg-light border rounded p-0 m-0 justify-content-center text-center">
+            <div class="col-md-3 col-sm-12 mt-5 me-3 bg-light border rounded p-0 m-0 justify-content-center text-center">
                 <div class="image">
                     <img src="images/icon-frameworks.png" alt="logo frameworks">
                 </div>
@@ -268,7 +298,7 @@
                             Selenium</button></li>
                 </ul>
             </div>
-            <div class="col me-3 bg-light border rounded p-0 m-0 justify-content-center text-center">
+            <div class="col-md-3 col-sm-12 mt-5 me-3 bg-light border rounded p-0 m-0 justify-content-center text-center">
                 <div class="image">
                     <img src="images/icon-skills.png" alt="logo skills">
                 </div>
@@ -286,18 +316,21 @@
                             design</button></li>
                 </ul>
             </div>
+            <div class="col-md-1"></div>
+        </div>
         </section>
 
         <!-- contact-form -->
 
         <section class="container contact-form">
             <div class="row mt-5 mx-3">
-                <div class="col">
+             <div class="col-md-1"></div>
+                <div class="col-md-5">
                     <h2 id="msg">I'm always interested in hearing about new projects, so if you'd like to chat please
                         get in
                         touch.</h2>
                 </div>
-                <div class="col">
+                <div class="col-md-5">
                     <form id="form" action="https://formspree.io/f/xlekprob" method="post">
                         <div class="form-group mt-3">
                             <input type="text" placeholder="Full name" maxlength="30" name="username" required
@@ -316,6 +349,7 @@
                         <a href="#" class="d-none">yashodhichathurangi94@gmail.com</a>
                     </form>
                 </div>
+             <div class="col-md-1"></div>
             </div>
             <div class="formbackground1"></div>
             <div class="formbackground2"></div>
